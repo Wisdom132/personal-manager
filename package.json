@@ -1,0 +1,26 @@
+{
+  "name": "clip",
+  "version": "1.0.0",
+  "description": "clip app",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha || true",
+    "start": "nodemon"
+  },
+  "author": "wisdom ekpot",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.9",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.2.2",
+    "mocha": "^6.2.0"
+  }
+}
