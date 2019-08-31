@@ -4,7 +4,7 @@
   "description": "clip app",
   "main": "server.js",
   "scripts": {
-    "test": "mocha || true",
+    "test": "mocha test/test.js",
     "start": "nodemon"
   },
   "author": "wisdom ekpot",
@@ -21,6 +21,7 @@
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "eslint": "^6.2.2",
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
   }
 }
