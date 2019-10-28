@@ -5,6 +5,7 @@ let chai = require("chai");
 let chaiHttp = require("chai-http");
 let app = require("../server");
 let Note = require("../model/note");
+
 var should = chai.should();
 chai.use(chaiHttp);
 

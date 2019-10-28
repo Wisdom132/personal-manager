@@ -7,6 +7,10 @@ let noteSchema = mongoose.Schema({
     description: {
         type:String,
         required:true,
+    },
+    created: {
+        type:Date,
+        default:Date.now(),
     }
 });
 var Note = mongoose.model("Note", noteSchema);
